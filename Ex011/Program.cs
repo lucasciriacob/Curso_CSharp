@@ -20,6 +20,18 @@ namespace Ex011
             if ((a < b + c) && (b < a + c) && (c < a + b))
             {
                 Console.WriteLine("É possível formar um triângulo com essas retas.");
+                if(a == b && b == c)
+                {
+                    Console.WriteLine("O triângulo formado é equilátero.");
+                }
+                else if (a == b || a == c || b == c)
+                {
+                    Console.WriteLine("O triângulo formado é isósceles.");
+                }
+                else
+                {
+                    Console.WriteLine("O triângulo formado é escaleno.");
+                }
             }
             else 
             {
