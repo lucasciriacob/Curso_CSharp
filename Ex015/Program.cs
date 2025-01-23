@@ -16,6 +16,7 @@
                 }
             }
 
+            Console.WriteLine("A soma dos números múltiplos de 3 é: " + soma);
         }
     }
 }
